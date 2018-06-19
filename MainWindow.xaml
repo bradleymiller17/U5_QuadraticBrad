@@ -1,0 +1,16 @@
+﻿<Window x:Class="U5_Quadratic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U5_Quadratic"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel x:Name="Stack_Mainwindow">
+        <TextBlock x:Name="Title" Text=" The Quadratic Wizard" FontSize="24" Width="245"/>
+        <TextBox x:Name="txt_value_a" Text=" Enter Value A Here"  FontSize="24" Width="230" Height="40"/>
+        <TextBox x:Name="txt_value_b" Text=" Enter Value B Here" FontSize="24" Width="230"/>
+
+
+    </StackPanel>
+</Window>
